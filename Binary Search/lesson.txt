@@ -1,0 +1,52 @@
+Binary search algorithms are also known as half interval search. 
+They return the position of a target value in a sorted list.
+
+These algorithms use the “divide and conquer” technique to find the value's position.
+
+In binary search, the middle element in the list is found before comparing with the 
+key value you are searching for. But in linear search, the elements are taken 
+one by one in the list by looping through and comparing with the key value.
+
+How Binary Search Works – Divide and Conquer
+A binary search algorithm uses a technique called “divide and conquer” to tackle its task. The merge sort algorithm employs the same technique to sort items in a list.
+
+In binary search algorithms, the “divide and conquer” method works this way:
+
+The algorithm splits the list into two parts: the left side and right side, 
+separated by the middle element.
+
+It creates a variable to store the value of the item to be searched for
+
+It picks out the middle element and compares it with the item to be searched
+If the items compared are equal, then process ends
+
+If not, the middle element is either greater or lesser than the item you're 
+searching for. 
+If the middle element is greater, the algorithm splits the list
+and searches for the element on the left side. 
+If the middle element is smaller,it splits the list and searches for the element 
+on the right side of the list.
+
+You can implement this method using recursion or iteration in the binary search 
+process.
+
+
+
+How the Binary Search Algorithm Works – Step by Step
+First, before performing the search, you need to sort the list.
+
+Then you create a variable that stores the value to be searched for.
+
+Next, the list is divided into two parts. We sum up the first and last indexes to find the index of the middle element in the list.
+
+When the calculated value of the middle element index is a float (like 3.45), we take the whole part as the index.
+
+Then we compare the value we're searching for and the middle element.
+
+
+if middle element == to_search 
+    return position of middle element 
+*code ends* 
+
+
+
