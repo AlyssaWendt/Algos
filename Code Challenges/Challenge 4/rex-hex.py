@@ -16,6 +16,10 @@ rgb(0,0,0) // returns 000000
 rgb(148, 0, 211) // returns 9400D3
 
 '''
+#edge case 0 = 0 and >255 = 255
+#set a function that takes a value and changes it into 3 digit hex
+# run that function through an rgb function changing rgb into the hex values 
+
 def to_hex(value):
     if value < 0:
         value = 0
