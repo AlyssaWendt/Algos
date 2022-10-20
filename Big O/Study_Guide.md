@@ -55,7 +55,7 @@ You could start at the beginning of the phone book and read every name on every 
 
 <storng>Factorial complexity</strong> is represented as O(N!).
 
-* The processing time of factorial algorithms grows exponentially(roughlyspeaking).
+* The processing time of factorial algorithms grows exponentially(roughly speaking).
 * These algorithms are highly inefficient and should be avoided at all costs.
 
 
