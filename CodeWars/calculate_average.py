@@ -15,6 +15,10 @@ def find_average(numbers):
     average = sum / len(numbers)
     return average
     
+    #or
+    
+def find_average(numbers):
+    return 0 if len(numbers) == 0 else sum(numbers) / len(numbers)
     
 print(find_average([]))
 print(find_average([1,2,3,4]))
