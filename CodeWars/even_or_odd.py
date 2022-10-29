@@ -1,6 +1,8 @@
 '''
 Create a function that takes an integer as an argument and returns
 "Even" for even numbers or "Odd" for odd numbers.
+
+adding my own contraint of zero
 '''
 
 def even_or_odd(number):
