@@ -16,8 +16,8 @@ def disemvowel(string_):
     newstring=""
     for i in string_:
         if i not in "aeiouAEIOU":
-            newstring=newstring+i
-    string_=newstring
+            newstring = newstring+i
+    string_= newstring
     return string_
 
 print(disemvowel("This website is for losers LOL!"))
